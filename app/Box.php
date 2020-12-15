@@ -1,7 +1,7 @@
 <?php
 namespace App;
 
-class Caixa
+class Box
 {
     /**
      * @var array

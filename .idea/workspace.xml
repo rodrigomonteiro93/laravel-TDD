@@ -12,8 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b00580f-6eb2-4381-930e-923674b18bc6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Caixa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Caixa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/myFirstTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/FunctionsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Caixa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Box.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/FunctionsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/FunctionsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +170,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607984916997</updated>
-      <workItem from="1607984918152" duration="10509000" />
+      <workItem from="1607984918152" duration="10616000" />
     </task>
     <servers />
   </component>
