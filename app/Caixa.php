@@ -16,35 +16,18 @@ class Caixa
     {
         $this->items = $items;
     }
-    /**
-     * Verifica se um item específico está na caixa
-     *
-     * @param string $item
-     * @return bool
-     */
-    public function contem($item)
+    public function searchInArray($item)
     {
         return in_array($item, $this->items);
     }
-    /**
-     * Remove um item da caixa
-     *
-     * @return string
-     */
-    public function pegarUm()
+    public function getItem()
     {
         return array_shift($this->items);
     }
-    /**
-     * Remove todos os itens que começam com uma determinada letra de dentro da caixa.
-     *
-     * @param string $letra
-     * @return array
-     */
-    public function comecaCom($letra)
+    public function firstLetter($letter)
     {
-        return array_filter($this->items, function ($item) use ($letra) {
-            return stripos($item, $letra) === 0;
+        return array_filter($this->items, function ($item) use ($letter) {
+            return stripos($item, $letter) === 0;
         });
     }
 }
